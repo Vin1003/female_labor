@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<head>
+    <title>豆瓣数据分析</title>
+    <link rel="stylesheet" href="../static/layout.css" type="text/css">
+</head>
+<div>
+<!--左边大框-->
+<div class="left">
+	<!--标题-->
+	<h1>女性劳动力参与劳动比率的变化</h1>
+
+    <form method="get" action="/map">
+	<button class="timeline_map">世界总体女性劳动力劳动参与率</button>
+    </form>
+    <form method="post" action="/uncn">
+	<button class="uncn">高等学校女性入学比例</button>
+    </form>
+    <form method="post" action="/worldhhh">
+	<button class="worldhhh">代表国家女性劳动力参与率</button>
+    </form>
+  
+
+</div>
+{% endblock %}

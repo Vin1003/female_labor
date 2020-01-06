@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="zh">
-<head>
+<head">
     <meta charset="UTF-8">
-    <title>标题</title>
+    <title>各国女性劳动力参与劳动比率</title>
+    <link rel="stylesheet" href="../static/hf.css" type="text/css" > 
 </head>
 <body>
 <form method="POST" action="/hurun">
@@ -13,6 +14,15 @@
     </select>
 <p><input value='Do it!' type='SUBMIT'></p>
 </form>
+    <form method="get" action="/map">
+	<button class="timeline_map">世界总体女性劳动力劳动参与率</button>
+    </form>
+    <form method="post" action="/uncn">
+	<button class="uncn">高等学校女性入学比例</button>
+    </form>
+    <form method="post" action="/worldhhh">
+	<button class="worldhhh">代表国家女性劳动力参与率</button>
+    </form>
 {{ the_plot_all|safe }}
 {{ the_res|safe }}
 
