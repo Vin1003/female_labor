@@ -28,8 +28,6 @@
 
 ### [交互页面](https://vin1003.github.io/female_labor/)
 
-### [pythonanywhere](totoro1003.pythonanywhere.com)
-
 ### 使用技能 
 
 1.excel及python进行数据清洗
