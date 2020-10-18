@@ -20,7 +20,7 @@
            
 5.各国人均收入程度
 
-### [交互页面](https://vin1003.github.io/female_labor/)
+### [交互页面](http://lyy171013051.gitee.io/female_force/)
 
 ### 使用技能 
 
